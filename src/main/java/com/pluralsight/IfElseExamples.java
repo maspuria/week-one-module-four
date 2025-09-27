@@ -28,17 +28,13 @@ public class IfElseExamples {
             System.out.println("You Aced it!");
         }else if(grade.equals("B")){
             System.out.println("You did a good job!");
-        }else if{
-            (grade.equals("C"))
+        }else if (grade.equals("C")){
             System.out.println("You passed!");
-        }else if{
-            (grade == "D")
+        }else if(grade == "D"){
         System.out.println("Not so good. You barely passed.");
-        }else{
-            (grade == "F")
+        }else if(grade == "F"){
         System.out.println("You Failed.");
         }
-
 
     }
 }
