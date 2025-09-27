@@ -18,7 +18,26 @@ public class IfElseExamples {
             System.out.println("You are not an adult yet.");
         }
         // ask for their grade
-        System.out.println("Enter your grade(");
+        System.out.println("Enter your grade(A-F): ");
+        String grade = scanner.next();
+
+        // use if-else statements to print different messages
+        // based on the grade entered
+
+        if (grade.equals("A")) {
+            System.out.println("You Aced it!");
+        }else if(grade.equals("B")){
+            System.out.println("You did a good job!");
+        }else if{
+            (grade.equals("C"))
+            System.out.println("You passed!");
+        }else if{
+            (grade == "D")
+        System.out.println("Not so good. You barely passed.");
+        }else{
+            (grade == "F")
+        System.out.println("You Failed.");
+        }
 
 
     }
