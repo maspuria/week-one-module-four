@@ -63,10 +63,11 @@ public class IfElseExamples {
 
         // To do: Use if statements with && and || to check login conditions
         // print "Access Granted" only if : username is "admin" AND username is "1234" Otherwise, print "Access Denied"
-        if (username.equalsIgnoreCase("admin") && (password.equals("1234")))||(username.equalsIgnoreCase("guest") && (password.equalsIgnoreCase("letmein")));{
+        // || (username.equalsIgnoreCase("guest") && (password.equals("letmein")))
+        if (username.equalsIgnoreCase("admin") && (password.equals("1234"))){
             System.out.println("Access Granted!");
-        }else if(){
-
+        } else {
+            System.out.println("Access Denied!");
         }
 
 
